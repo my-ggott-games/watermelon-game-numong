@@ -1,12 +1,12 @@
 /**
- * 选分弹窗
+ * 포인트 팝업
  * @type {number}
  */
 
 if (selectModal) {
   let extraScoreStr = '';
   while (isNaN(parseInt(extraScoreStr))) {
-    extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+    extraScoreStr = prompt('점수 가산 숫자를 입력하세요.', '1').trim();
   }
   extraScore = parseInt(extraScoreStr)
 }
