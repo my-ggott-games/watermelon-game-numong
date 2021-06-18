@@ -1,6 +1,4 @@
 function noAdGoToScene() {
-
-
     var GameConfig = __require("GameConfig");
     console.log("IndexMainMangerMaing", GameConfig.launchScene, GameConfig.Bros, GameConfig.caS);
 
@@ -23,10 +21,6 @@ function noAdGoToScene() {
             }
             cc.loader.onProgress = null;
             console.log('Success to load scene1Main: ' + launchScene);
-
-
-
-
 
         }
     );
