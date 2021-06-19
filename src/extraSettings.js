@@ -36,7 +36,7 @@ let fruitSlowDown = false;
 let clickChangeFruit = true;
 
 // 광고 링크: false 또는 빈 문자열은 광고로 넘어가지 않는다는 것을 나타냅니다.
-let adLink = '';
+let adLink = 'https://www.instagram.com/nu0900';
 
 // 웹페이지 제목 수정: "누멍이 팬게임" 으로 변경합니다.
 document.getElementsByTagName("title")[0].innerText = '누멍이 팬게임';
