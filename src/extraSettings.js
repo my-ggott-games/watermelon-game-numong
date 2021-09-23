@@ -9,7 +9,7 @@ let extraScore = 1;
 // 무적 모드: true를 false로 변경
 let wuDi = true;
 
-// 첫 번째 과일: 수정숫자는 0-10, 0은 포도, 9는 수박 반 개
+// 첫 번째 과일: 수정숫자는 0-10, 0은 포도, 9zq는 수박 반 개
 let firstFruit = 0;
 
 // 과일 합성 반전: false에서 true로 변경
