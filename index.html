@@ -38,20 +38,15 @@
     <!--<link rel="apple-touch-icon" href=".png" />-->
     <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-237076048-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <!-- <script>
-        pushHistory();
-        window.addEventListener("popstate", function(e) {
-
-        }, false);
-        function pushHistory() {
-            var state = {
-                title: "",
-                url: window.location.href
-            };
-            window.history.pushState(state, state.title, state.url);
-        }
-    </script> -->
+        gtag('config', 'UA-237076048-1');
+    </script>
 
     <!--favicon-->
     <link rel="shortcut icon" href="res/favicon.ico">
